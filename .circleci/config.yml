@@ -36,4 +36,4 @@ workflows:
       - first_build
       - second_build
         requires:
-          - one
+          - first_build
